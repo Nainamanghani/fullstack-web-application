@@ -1,10 +1,9 @@
-// ================== BASE URL ==================
+
 const BASE_URL = "http://localhost:8094/api";
 
-/* ================== PROJECTS ================== */
 document.addEventListener("DOMContentLoaded", () => {
 
-    /* ---------- LOAD PROJECTS ---------- */
+ 
     const projectsContainer = document.getElementById("projects-container");
 
     if (projectsContainer) {
@@ -38,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch(err => console.error("Project load error:", err));
     }
 
-    /* ---------- LOAD CLIENTS ---------- */
     const clientsContainer = document.getElementById("clients-container");
 
     if (clientsContainer) {
@@ -67,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-/* ================== CONTACT FORM ================== */
+
 const contactForm = document.getElementById("contact-form");
 
 if (contactForm) {
@@ -94,7 +92,7 @@ if (contactForm) {
     });
 }
 
-/* ================== NEWSLETTER ================== */
+
 const newsletterForm = document.getElementById("newsletter-form");
 
 if (newsletterForm) {

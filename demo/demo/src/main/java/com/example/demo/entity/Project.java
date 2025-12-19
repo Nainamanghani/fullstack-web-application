@@ -13,9 +13,9 @@ public class Project {
     private String title;
     private String description;
     private String link;
-    private String imageUrl; // optional: to store project image
+    private String imageUrl;
 
-    // Constructors
+
     public Project() {}
 
     public Project(String title, String description, String link, String imageUrl) {
@@ -25,7 +25,7 @@ public class Project {
         this.imageUrl = imageUrl;
     }
 
-    // Getters and Setters
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

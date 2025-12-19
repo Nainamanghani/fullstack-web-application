@@ -1,6 +1,6 @@
 const BASE_URL = "http://localhost:8094/api";
 
-/* ================= PROJECT ================= */
+
 
 const projectForm = document.getElementById("projectForm");
 const projectList = document.getElementById("projectList");
@@ -46,7 +46,7 @@ function deleteProject(id) {
         .then(() => loadProjects());
 }
 
-/* ================= CLIENT ================= */
+
 
 const clientForm = document.getElementById("clientForm");
 const clientList = document.getElementById("clientList");
@@ -92,7 +92,7 @@ function deleteClient(id) {
         .then(() => loadClients());
 }
 
-/* ================= CONTACT ================= */
+
 
 function loadContacts() {
     fetch(`${BASE_URL}/contact`)
@@ -115,7 +115,7 @@ function deleteContact(id) {
         .then(() => loadContacts());
 }
 
-/* ================= NEWSLETTER ================= */
+
 
 function loadNewsletter() {
     fetch(`${BASE_URL}/newsletter`)
@@ -138,7 +138,7 @@ function deleteSubscriber(id) {
         .then(() => loadNewsletter());
 }
 
-/* ================= INIT ================= */
+
 loadProjects();
 loadClients();
 loadContacts();

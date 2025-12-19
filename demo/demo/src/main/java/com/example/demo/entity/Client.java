@@ -14,11 +14,11 @@ public class Client {
     private String designation;
     private String description;
 
-    // 🔥 THIS IS THE FIX
+
     @Column(name = "image_url")
     private String imageUrl;
 
-    // Getters and Setters
+
     public Long getId() {
         return id;
     }

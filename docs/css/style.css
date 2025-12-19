@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     color: #333;
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
     position: sticky;
     top: 0;
@@ -61,8 +61,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-
-/* ===== HERO ===== */
 .hero {
     height: 70vh;
     background: linear-gradient(
@@ -88,7 +86,7 @@ body {
     font-size: 20px;
 }
 
-/* ===== SECTIONS ===== */
+
 section {
     padding: 80px 40px;
 }
@@ -100,7 +98,6 @@ section h2 {
     color: #222;
 }
 
-/* ===== SERVICES ===== */
 .simple-section {
     background: white;
 }
@@ -111,7 +108,7 @@ section h2 {
     color: #555;
 }
 
-/* ===== PROJECTS ===== */
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -147,7 +144,7 @@ section h2 {
     color: #555;
 }
 
-/* ===== CLIENTS ===== */
+
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -189,7 +186,7 @@ section h2 {
     color: #555;
 }
 
-/* ===== CONTACT FORM ===== */
+
 .consultation-section {
     background: linear-gradient(135deg, #1e90ff, #4facfe);
     display: flex;
@@ -228,7 +225,7 @@ section h2 {
     cursor: pointer;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
     background: #111;
     color: #aaa;
@@ -236,7 +233,7 @@ section h2 {
     padding: 20px;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 768px) {
     .hero {
         padding-left: 30px;

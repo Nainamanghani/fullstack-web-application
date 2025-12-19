@@ -37,7 +37,7 @@ public class ProjectServiceImpl implements ProjectService {
         return projectRepository.save(existingProject);
     }
 
-    // ===== DELETE =====
+
     @Override
     public void deleteProject(Long id) {
         projectRepository.deleteById(id);
