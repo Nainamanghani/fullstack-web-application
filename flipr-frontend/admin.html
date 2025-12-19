@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<header class="admin-header">
+    <h1>Admin Dashboard</h1>
+    <a href="index.html">← Back to Website</a>
+</header>
+
+<div class="container">
+
+    <!-- ===== ADD PROJECT ===== -->
+    <section>
+        <h2>Add Project</h2>
+        <form id="projectForm">
+            <input id="projectTitle" placeholder="Project Title" required>
+            <input id="projectDescription" placeholder="Project Description" required>
+            <input id="projectLink" placeholder="Project Link">
+            <input id="projectImage" placeholder="Image URL">
+            <button type="submit">Add Project</button>
+        </form>
+    </section>
+
+    <!-- ===== PROJECT LIST ===== -->
+    <section>
+        <h2>Projects</h2>
+        <div id="projectList"></div>
+    </section>
+
+    <!-- ===== ADD CLIENT ===== -->
+    <section>
+        <h2>Add Client</h2>
+        <form id="clientForm">
+            <input id="clientName" placeholder="Client Name" required>
+            <input id="clientDesignation" placeholder="Designation">
+            <input id="clientDescription" placeholder="Description">
+            <input id="clientImage" placeholder="Image URL">
+            <button type="submit">Add Client</button>
+        </form>
+    </section>
+
+    <!-- ===== CLIENT LIST ===== -->
+    <section>
+        <h2>Clients</h2>
+        <div id="clientList"></div>
+    </section>
+
+    <!-- ===== CONTACT LIST ===== -->
+    <section>
+        <h2>Contact Requests</h2>
+        <div id="contactList"></div>
+    </section>
+
+    <!-- ===== NEWSLETTER LIST ===== -->
+    <section>
+        <h2>Newsletter Subscribers</h2>
+        <div id="newsletterList"></div>
+    </section>
+
+</div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
