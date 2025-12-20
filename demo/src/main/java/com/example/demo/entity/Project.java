@@ -11,12 +11,17 @@ public class Project {
     private Long id;
 
     private String title;
+    @Column(length = 1000)
     private String description;
+
+    @Column(length = 2048)
     private String link;
+
+    @Column(length = 2048)
     private String imageUrl;
 
-
-    public Project() {}
+    public Project() {
+    }
 
     public Project(String title, String description, String link, String imageUrl) {
         this.title = title;
@@ -25,19 +30,43 @@ public class Project {
         this.imageUrl = imageUrl;
     }
 
+    public Long getId() {
+        return id;
+    }
 
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
+    public String getTitle() {
+        return title;
+    }
 
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-    public String getLink() { return link; }
-    public void setLink(String link) { this.link = link; }
+    public String getDescription() {
+        return description;
+    }
 
-    public String getImageUrl() { return imageUrl; }
-    public void setImageUrl(String imageUrl) { this.imageUrl = imageUrl; }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }
