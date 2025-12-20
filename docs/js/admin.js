@@ -1,7 +1,7 @@
 // Detect environment
 const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
 // REPLACE THE STRING BELOW WITH YOUR ACTUAL RAILWAY BACKEND URL AFTER DEPLOYING
-const PROD_URL = "https://your-production-backend.up.railway.app/api";
+const PROD_URL = "https://empathetic-hope-production.up.railway.app/api";
 
 const BASE_URL = isLocal ? "http://localhost:8094/api" : PROD_URL;
 
